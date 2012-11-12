@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference 			
+		android:key="status"
+		android:title="@string/str_main_pref_check_wifiap"
+		android:summaryOn="Turn Off" 
+		android:summaryOff="Turn On" />
+	<Preference 
+		android:title="@string/str_main_pref_list_ws" 
+		android:key="wsKey"
+		android:dependency="status"/>
+   <Preference 
+		android:title="@string/str_main_pref_list_ns" 
+		android:key="nsKey"
+		android:dependency="status"/>
+   <Preference 
+		android:title="@string/str_main_pref_list_st" 
+		android:key="statusKey"
+		android:dependency="status"/>
+</PreferenceScreen>

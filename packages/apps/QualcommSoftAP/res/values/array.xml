@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<array name = "wslist">
+		<item>Basic Wireless Settings</item>
+		<item>Wireless Security Settings</item>
+		<item>Advanced Wireless Settings</item>
+	</array>
+	<array name = "nwslist">
+		<item>MAC Filter Settings</item>
+	</array>
+	<!-- Basic Wireless Settings - Network Mode List -->
+	<string-array name = "networkArray">
+		<item>B</item>
+		<item>G</item>
+		<item>N</item>
+		<item>BG</item>
+		<item>BGN</item>
+	</string-array>
+	<string-array name = "networkValues">
+		<item>b</item>
+		<item>g_only</item>
+		<item>n_only</item>
+		<item>g</item>
+		<item>n</item>
+	</string-array>	
+	<!-- Basic Wireless Settings - Channel Frequency -->
+	<string-array name = "freqeleven">
+		<item>Auto</item>
+		<item>1 (2.412 GHz)</item>
+		<item>2 (2.417 GHz)</item>
+		<item>3 (2.422 GHz)</item>
+		<item>4 (2.427 GHz)</item>
+		<item>5 (2.432 GHz)</item>
+		<item>6 (2.437 GHz)</item>
+		<item>7 (2.442 GHz)</item>
+		<item>8 (2.447 GHz)</item>
+		<item>9 (2.452 GHz)</item>
+		<item>10 (2.457 GHz)</item>
+		<item>11 (2.462 GHz)</item>
+	</string-array>
+	<string-array name = "freqelevenValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+	</string-array>
+
+	<string-array name = "freqthirteen">
+		<item>Auto</item>
+		<item>1 (2.412 GHz)</item>
+		<item>2 (2.417 GHz)</item>
+		<item>3 (2.422 GHz)</item>
+		<item>4 (2.427 GHz)</item>
+		<item>5 (2.432 GHz)</item>
+		<item>6 (2.437 GHz)</item>
+		<item>7 (2.442 GHz)</item>
+		<item>8 (2.447 GHz)</item>
+		<item>9 (2.452 GHz)</item>
+		<item>10 (2.457 GHz)</item>
+		<item>11 (2.462 GHz)</item>
+		<item>12 (2.467 GHz)</item>
+		<item>13 (2.472 GHz)</item>
+	</string-array>
+	<string-array name = "freqthirteenValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+	</string-array>
+
+	<string-array name = "freqfourteen">
+		<item>Auto</item>
+		<item>1 (2.412 GHz)</item>
+		<item>2 (2.417 GHz)</item>
+		<item>3 (2.422 GHz)</item>
+		<item>4 (2.427 GHz)</item>
+		<item>5 (2.432 GHz)</item>
+		<item>6 (2.437 GHz)</item>
+		<item>7 (2.442 GHz)</item>
+		<item>8 (2.447 GHz)</item>
+		<item>9 (2.452 GHz)</item>
+		<item>10 (2.457 GHz)</item>
+		<item>11 (2.462 GHz)</item>
+		<item>12 (2.467 GHz)</item>
+		<item>13 (2.472 GHz)</item>
+		<item>14 (2.484 GHz)</item>
+	</string-array>
+	<string-array name = "freqfourteenValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14 </item>
+	</string-array>
+	<!-- Basic Wireless Settings - Authentication Mode -->
+	<string-array name = "authArray">
+		<item>Auto</item>
+		<item>Open</item>
+		<item>Shared</item>
+	</string-array>
+	<string-array name="authValues">
+		<item>3</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<!-- Basic Wireless Settings - WPS Enroll List -->
+	<string-array name = "wpsEnrollArray">
+		<item>PIN Entry</item>
+		<item>Push Button Control</item>
+	</string-array>
+	<string-array name = "wpsEnrollValues">
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+	<!-- Wireless Security Settings - Security Mode -->
+	<string-array name = "securityMode">
+		<item>Open</item>
+		<item>WEP</item>
+		<item>WPA-PSK</item>
+		<item>WPA2-PSK</item>
+		<item>WPA-WPA2 Mixed</item>
+	</string-array>
+	<string-array name = "securityModeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<!-- Wireless Security Settings - Transmit Key -->
+	<string-array name = "transmitKey">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name = "transmitKeyValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<!-- Wireless Security Settings - WPAPSK Algorithm -->
+	<string-array name = "wpapskAlgorithm">
+		<item>TKIP</item>
+		<item>CCMP</item>
+		<item>Mixed</item>
+	</string-array>
+	<string-array name = "wpapskAlgorithmValues">
+		<item>TKIP</item>
+		<item>CCMP</item>
+		<item>TKIP CCMP</item>
+	</string-array>	
+	<!-- Station Status - Status Items -->
+	<string-array name = "statuslist">
+		<item>AP Statistics</item>
+		<item>Associated Station List</item>
+	</string-array>	
+	<string-array name = "apStatisticsAbbrivations">
+	  <item>RUF=Receive Unicast</item> 
+      <item>RUB=Receive Unicast</item> 
+      <item>TUF=Transmit Unicast</item> 
+      <item>TUB=Transmit Unicast</item> 
+      <item>RMF=Receive Multicast</item> 
+      <item>RMB=Receive Multicast</item> 
+      <item>TMF=Transmit Multicast</item> 
+      <item>TMB=Transmit Multicast</item> 
+      <item>RBF=Receive Broadcast</item> 
+      <item>RBB=Receive Broadcast</item> 
+      <item>TBF=Transmit Broadcast</item> 
+      <item>TBB=Transmit Broadcast</item>
+	</string-array>		
+	<!-- Advanced Wireless Settings - Data Rates -->
+	<string-array name = "dataRatesArrayB">
+		<item>Auto</item>
+		<item>1</item>
+		<item>2</item>
+		<item>5.5</item>
+		<item>11</item>
+	</string-array>
+	<string-array name = "dataRatesValuesB">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+
+	<string-array name = "dataRatesArrayGBG">
+		<item>Auto</item>
+		<item>1</item>
+		<item>2</item>
+		<item>5.5</item>
+		<item>6</item>
+		<item>9</item>
+		<item>11</item>
+		<item>12</item>
+		<item>18</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>54</item>
+	</string-array>
+	<string-array name = "dataRatesValuesGBG">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>5</item>
+		<item>6</item>
+		<item>4</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+
+	<string-array name = "dataRatesArrayNBGN">
+		<item>Auto</item>
+		<item>1</item>
+		<item>2</item>
+		<item>5.5</item>
+		<item>11</item>
+		<item>6</item>
+		<item>9</item>
+		<item>12</item>
+		<item>18</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>54</item>
+		<item>6.5</item>
+		<item>13</item>
+		<item>19.5</item>
+		<item>26</item>
+		<item>39</item>
+		<item>52</item>
+		<item>58.5</item>
+		<item>65(MCS7)</item>
+		<item>7.2</item>
+		<item>14.4</item>
+		<item>21.7</item>
+		<item>28.9</item>
+		<item>43.3</item>
+		<item>57.8</item>
+		<item>65(MCS6)</item>
+		<item>72.2</item>
+	</string-array>
+	<string-array name = "dataRatesValuesNBGN">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+	</string-array>
+	
+	<!-- Advanced Wireless Settings - WMM List Items -->	
+	<string-array name = "wmmArray">
+		<item>Auto</item>
+		<item>Enable</item>
+		<item>Disable</item>
+	</string-array>
+	<string-array name="wmmValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>	
+	
+	<!-- Advanced Wireless Settings - AP Shutdown Time -->
+	<string-array name = "ApShutdownTimerArray">
+		<item>Off</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>20 minutes</item>
+		<item>30 minutes</item>
+		<item>40 minutes</item>
+		<item>50 minutes</item>
+		<item>60 minutes</item>
+		<item>90 minutes</item>
+		<item>120 minutes</item>		
+	</string-array>
+	<string-array name = "ApShutdownTimerValues">
+		<item>0</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>60</item>
+		<item>90</item>
+		<item>120</item>
+	</string-array>
+	<!-- Advanced Wireless Settings - Country Code -->
+	<string-array name = "countryCodeArray">
+		<item>USA</item>
+		<item>Andorra</item>
+		<item>UAE</item>
+		<item>Afghanistan</item>
+		<item>Antigua &amp; Barbuda</item>
+		<item>Anguilla</item>
+		<item>Albania</item>
+		<item>Armenia</item>
+		<item>Netherlands Antilles</item>
+		<item>Angola</item>
+		<item>Antartica</item>
+		<item>Argentina</item>
+		<item>American Somoa</item>
+		<item>Austria</item>
+		<item>Australia</item>
+		<item>Aruba</item>
+		<item>Aland Islands</item>
+		<item>Azerbaijan</item>
+		<item>Bosnia &amp; Herzegovina</item>
+		<item>Barbados</item>
+		<item>Bangladesh</item>
+		<item>Belgium</item>
+		<item>Burkina Faso</item>
+		<item>Bulgaria</item>
+		<item>Bahrain</item>
+		<item>Burundi</item>
+		<item>Benin</item>
+		<item>Bermuda</item>
+		<item>Brunei Darussalam</item>
+		<item>Bolivia</item>
+		<item>Brazil</item>
+		<item>Bahamas</item>
+		<item>Bhutan</item>
+		<item>Bouvet Island</item>
+		<item>Botswana</item>
+		<item>Belarus</item>
+		<item>Belize</item>
+		<item>Canada</item>
+		<item>Cocos (Keeling) Islands</item>
+		<item>Congo, The Democratic Republic Of The</item>
+		<item>Central African Republic</item>
+		<item>Congo</item>
+		<item>Switzerland</item>
+		<item>Cote D\'Ivoire</item>
+		<item>Cook Islands</item>
+		<item>Chile</item>
+		<item>Cameroon</item>
+		<item>China</item>
+		<item>Colombia</item>
+		<item>Costa Rica</item>
+		<item>Cuba</item>
+		<item>Cape Verde</item>
+		<item>Christmas Island</item>
+		<item>Cyprus</item>
+		<item>Czech Republic</item>
+		<item>Germany</item>
+		<item>Djibouti</item>
+		<item>Denmark</item>
+		<item>Dominica</item>
+		<item>Dominican Republic</item>
+		<item>Algeria</item>
+		<item>Ecuador</item>
+		<item>Estonia</item>
+		<item>Egypt</item>
+		<item>Western Sahara</item>
+		<item>Eritrea</item>
+		<item>Spain</item>
+		<item>Ethiopia</item>
+		<item>Finland</item>
+		<item>Fiji</item>
+		<item>Falkland Islands (Malvinas)</item>
+		<item>Micronesia, Federated States Of</item>
+		<item>Faroe Islands</item>
+		<item>France</item>
+		<item>Gabon</item>
+		<item>United Kingdom</item>
+		<item>Grenada</item>
+		<item>Georgia</item>
+		<item>French Guiana</item>
+		<item>Guernsey</item>
+		<item>Ghana</item>
+		<item>Gibraltar</item>
+		<item>Greenland</item>
+		<item>Gambia</item>
+		<item>Guinea</item>
+		<item>Guadeloupe</item>
+		<item>Equatorial Guinea</item>
+		<item>Greece</item>
+		<item>South Georgia And The South Sandwich Islands</item>
+		<item>Guatemala</item>
+		<item>Guam</item>
+		<item>Guinea-Bissau</item>
+		<item>Guyana</item>
+		<item>Hongkong </item>
+		<item>Heard Island And McDonald Islands</item>
+		<item>Honduras</item>
+		<item>Croatia</item>
+		<item>Haiti</item>
+		<item>Hungary</item>
+		<item>Indonesia</item>
+		<item>Ireland</item>
+		<item>Isreal</item>
+		<item>Isle Of Man</item>
+		<item>India</item>
+		<item>British Indian Ocean Territory</item>
+		<item>Iraq</item>
+		<item>Iran, Islamic Republic Of</item>
+		<item>Iceland</item>
+		<item>Italy</item>
+		<item>Jersey</item>
+		<item>Jamaica</item>
+		<item>Jordan</item>
+		<item>Japan</item>
+		<item>Kenya</item>
+		<item>Kyrgyzstan</item>
+		<item>Cambodia</item>
+		<item>Kiribati</item>
+		<item>Comoros</item>
+		<item>Saint Kitts And Nevis</item>
+		<item>Korea, Democratic People\'s Republic Of</item>
+		<item>Korea, Republic Of</item>
+		<item>Kuwait</item>
+		<item>Cayman Islands</item>
+		<item>Kazakhstan</item>
+		<item>Lao People\'s Democratic Republic</item>
+		<item>Lebanon</item>
+		<item>Saint Lucia</item>
+		<item>Liechtenstein</item>
+		<item>Sri Lanka</item>
+		<item>Liberia</item>
+		<item>Lesotho</item>
+		<item>Lithuania</item>
+		<item>Luxembourg</item>
+		<item>Latvia</item>
+		<item>Libyan Arab Jamahiriya</item>
+		<item>Morocco</item>
+		<item>Monaco</item>
+		<item>Moldova, Republic Of</item>
+		<item>Montenegro</item>
+		<item>Madagascar</item>
+		<item>Marshall Islands</item>
+		<item>Macedonia, The Former Yogoslav Republic Of</item>
+		<item>Mali</item>
+		<item>Myanmar</item>
+		<item>Mongolia</item>
+		<item>Macao</item>
+		<item>Northern Mariana Islands</item>
+		<item>Martinique</item>
+		<item>Mauritania</item>
+		<item>Montserrat</item>
+		<item>Malta</item>
+		<item>Mauritius</item>
+		<item>Maldives</item>
+		<item>Malawi</item>
+		<item>Mexico</item>
+		<item>Malayasia</item>
+		<item>Mozambique</item>
+		<item>Namibia</item>
+		<item>New Caledonia</item>
+		<item>Niger</item>
+		<item>Norfolk Island</item>
+		<item>Nigeria</item>
+		<item>Nicaragua</item>
+		<item>Netherlands</item>
+		<item>Norway</item>
+		<item>Nepal</item>
+		<item>Nauru</item>
+		<item>Niue</item>
+		<item>New Zealand</item>
+		<item>Oman</item>
+		<item>Panama</item>
+		<item>Peru</item>
+		<item>French Polynesia</item>
+		<item>Papua New Guinea</item>
+		<item>Philippines</item>
+		<item>Pakistan</item>
+		<item>Poland</item>
+		<item>Saint Pierre And Miquelon</item>
+		<item>Pitcairn</item>
+		<item>Puerto Rico</item>
+		<item>Palestinian Territory, Occupied</item>
+		<item>Portugal</item>
+		<item>Palau</item>
+		<item>Paraguay</item>
+		<item>Qatar</item>
+		<item>Reunion</item>
+		<item>Romania</item>
+		<item>Serbia</item>
+		<item>Russian Federation</item>
+		<item>Rwanda</item>
+		<item>Saudi Arabia</item>
+		<item>Solomon Islands</item>
+		<item>Seychelles</item>
+		<item>Sudan</item>
+		<item>Sweden</item>
+		<item>Singapore</item>
+		<item>Saint Helena</item>
+		<item>Slovenia</item>
+		<item>Svalbard And Jan Mayen</item>
+		<item>Slovakia</item>
+		<item>Sierra Leone</item>
+		<item>San Marino</item>
+		<item>Senegal</item>
+		<item>Somalia</item>
+		<item>Suriname</item>
+		<item>Sao Tome And Principe</item>
+		<item>El Salvador</item>
+		<item>Syrian Arab Republic</item>
+		<item>Swaziland</item>
+		<item>Turks And Caicos Islands</item>
+		<item>Chad</item>
+		<item>French Southern Territories</item>
+		<item>Togo</item>
+		<item>Thailand</item>
+		<item>Tajikistan</item>
+		<item>Tokelau</item>
+		<item>Timor-Leste</item>
+		<item>Turkmenistan</item>
+		<item>Tunisia</item>
+		<item>Tongo</item>
+		<item>Turkey</item>
+		<item>Trinidad And Tobago</item>
+		<item>Tuvalu</item>
+		<item>Taiwan, Province Of China</item>
+		<item>Tanzania, United Republic Of</item>
+		<item>Ukraine</item>
+		<item>Uganda</item>
+		<item>United States Minor Outlying Islands</item>
+		<item>Uruguay</item>
+		<item>Uzbekistan</item>
+		<item>Holy See (Vatican City State)</item>
+		<item>Saint Vincent And The Grenadines</item>
+		<item>Venezuela, Bolivarian Republic of</item>
+		<item>Virgin Islands, British</item>
+		<item>Virgin Islands, US</item>
+		<item>Viet Nam</item>
+		<item>Vanuatu</item>
+		<item>Wallis And Futuna</item>
+		<item>Somoa</item>
+		<item>Yemen</item>
+		<item>Mayotte</item>
+		<item>South Africa</item>
+		<item>Zambia</item>
+		<item>Zimbabwe</item>
+		<item>Korea alternate 1</item>
+		<item>Korea alternate 2</item>
+		<item>Korea alternate 3</item>
+		<item>Korea alternate 4</item>
+	</string-array>
+	<string-array name = "countryCodeValues">
+		<item>US,REGDOMAIN_FCC</item>
+		<item>AD,REGDOMAIN_WORLD</item>
+		<item>AE,REGDOMAIN_WORLD</item>
+		<item>AF,REGDOMAIN_WORLD</item>
+		<item>AG,REGDOMAIN_NO_5GHZ</item>
+		<item>AI,REGDOMAIN_NO_5GHZ</item>
+		<item>AL,REGDOMAIN_WORLD</item>
+		<item>AM,REGDOMAIN_NO_5GHZ</item>
+		<item>AN,REGDOMAIN_WORLD</item>
+		<item>AO,REGDOMAIN_NO_5GHZ</item>
+		<item>AQ,REGDOMAIN_WORLD</item>
+		<item>AR,REGDOMAIN_HI_5GHZ</item>
+		<item>AS,REGDOMAIN_FCC</item>
+		<item>AT,REGDOMAIN_ETSI</item>
+		<item>AU,REGDOMAIN_ETSI</item>
+		<item>AW,REGDOMAIN_NO_5GHZ</item>
+		<item>AX,REGDOMAIN_WORLD</item>
+		<item>AZ,REGDOMAIN_WORLD</item>
+		<item>BA,REGDOMAIN_WORLD</item>
+		<item>BB,REGDOMAIN_WORLD</item>
+		<item>BD,REGDOMAIN_WORLD</item>
+		<item>BE,REGDOMAIN_ETSI</item>
+		<item>BF,REGDOMAIN_WORLD</item>
+		<item>BG,REGDOMAIN_HI_5GHZ</item>
+		<item>BH,REGDOMAIN_WORLD</item>
+		<item>BI,REGDOMAIN_WORLD</item>
+		<item>BJ,REGDOMAIN_WORLD</item>
+		<item>BM,REGDOMAIN_ETSI</item>
+		<item>BN,REGDOMAIN_WORLD</item>
+		<item>BO,REGDOMAIN_WORLD</item>
+		<item>BR,REGDOMAIN_WORLD</item>
+		<item>BS,REGDOMAIN_WORLD</item>
+		<item>BT,REGDOMAIN_WORLD</item>
+		<item>BV,REGDOMAIN_WORLD</item>
+		<item>BW,REGDOMAIN_WORLD</item>
+		<item>BY,REGDOMAIN_WORLD</item>
+		<item>BZ,REGDOMAIN_WORLD</item>
+		<item>CA,REGDOMAIN_FCC</item>
+		<item>CC,REGDOMAIN_WORLD</item>
+		<item>CD,REGDOMAIN_WORLD</item>
+		<item>CF,REGDOMAIN_WORLD</item>
+		<item>CG,REGDOMAIN_WORLD</item>
+		<item>CH,REGDOMAIN_WORLD</item>
+		<item>CI,REGDOMAIN_WORLD</item>
+		<item>CK,REGDOMAIN_WORLD</item>
+		<item>CL,REGDOMAIN_WORLD</item>
+		<item>CM,REGDOMAIN_WORLD</item>
+		<item>CN,REGDOMAIN_HI_5GHZ</item>
+		<item>CO,REGDOMAIN_WORLD</item>
+		<item>CR,REGDOMAIN_WORLD</item>
+		<item>CU,REGDOMAIN_WORLD</item>
+		<item>CV,REGDOMAIN_WORLD</item>
+		<item>CX,REGDOMAIN_WORLD</item>
+		<item>CY,REGDOMAIN_WORLD</item>
+		<item>CZ,REGDOMAIN_HI_5GHZ</item>
+		<item>DE,REGDOMAIN_ETSI</item>
+		<item>DJ,REGDOMAIN_WORLD</item>
+		<item>DK,REGDOMAIN_ETSI</item>
+		<item>DM,REGDOMAIN_WORLD</item>
+		<item>DO,REGDOMAIN_NO_5GHZ</item>
+		<item>DZ,REGDOMAIN_WORLD</item>
+		<item>EC,REGDOMAIN_WORLD</item>
+		<item>EE,REGDOMAIN_HI_5GHZ</item>
+		<item>EG,REGDOMAIN_WORLD</item>
+		<item>EH,REGDOMAIN_WORLD</item>
+		<item>ER,REGDOMAIN_WORLD</item>
+		<item>ES,REGDOMAIN_ETSI</item>
+		<item>ET,REGDOMAIN_WORLD</item>
+		<item>FI,REGDOMAIN_WORLD</item>
+		<item>FJ,REGDOMAIN_WORLD</item>
+		<item>FK,REGDOMAIN_WORLD</item>
+		<item>FM,REGDOMAIN_WORLD</item>
+		<item>FO,REGDOMAIN_WORLD</item>
+		<item>FR,REGDOMAIN_ETSI</item>
+		<item>GA,REGDOMAIN_WORLD</item>
+		<item>GB,REGDOMAIN_ETSI</item>
+		<item>GD,REGDOMAIN_WORLD</item>
+		<item>GE,REGDOMAIN_HI_5GHZ</item>
+		<item>GF,REGDOMAIN_WORLD</item>
+		<item>GG,REGDOMAIN_ETSI</item>
+		<item>GH,REGDOMAIN_WORLD</item>
+		<item>GI,REGDOMAIN_WORLD</item>
+		<item>GL,REGDOMAIN_WORLD</item>
+		<item>GM,REGDOMAIN_WORLD</item>
+		<item>GN,REGDOMAIN_WORLD</item>
+		<item>GP,REGDOMAIN_WORLD</item>
+		<item>GQ,REGDOMAIN_WORLD</item>
+		<item>GR,REGDOMAIN_ETSI</item>
+		<item>GS,REGDOMAIN_WORLD</item>
+		<item>GT,REGDOMAIN_NO_5GHZ</item>
+		<item>GU,REGDOMAIN_WORLD</item>
+		<item>GW,REGDOMAIN_WORLD</item>
+		<item>GY,REGDOMAIN_WORLD</item>
+		<item>HK,REGDOMAIN_WORLD</item>
+		<item>HM,REGDOMAIN_WORLD</item>
+		<item>HN,REGDOMAIN_WORLD</item>
+		<item>HR,REGDOMAIN_HI_5GHZ</item>
+		<item>HT,REGDOMAIN_WORLD</item>
+		<item>HU,REGDOMAIN_HI_5GHZ</item>
+		<item>ID,REGDOMAIN_APAC</item>
+		<item>IE,REGDOMAIN_ETSI</item>
+		<item>IL,REGDOMAIN_WORLD</item>
+		<item>IM,REGDOMAIN_ETSI</item>
+		<item>IN,REGDOMAIN_WORLD</item>
+		<item>IO,REGDOMAIN_ETSI</item>
+		<item>IQ,REGDOMAIN_WORLD</item>
+		<item>IR,REGDOMAIN_WORLD</item>
+		<item>IS,REGDOMAIN_WORLD</item>
+		<item>IT,REGDOMAIN_ETSI</item>
+		<item>JE,REGDOMAIN_ETSI</item>
+		<item>JM,REGDOMAIN_WORLD</item>
+		<item>JO,REGDOMAIN_WORLD</item>
+		<item>JP,REGDOMAIN_JAPAN</item>
+		<item>KE,REGDOMAIN_WORLD</item>
+		<item>KG,REGDOMAIN_WORLD</item>
+		<item>KH,REGDOMAIN_WORLD</item>
+		<item>KI,REGDOMAIN_WORLD</item>
+		<item>KM,REGDOMAIN_WORLD</item>
+		<item>KN,REGDOMAIN_WORLD</item>
+		<item>KP,REGDOMAIN_KOREA</item>
+		<item>KR,REGDOMAIN_KOREA</item>
+		<item>KW,REGDOMAIN_WORLD</item>
+		<item>KY,REGDOMAIN_WORLD</item>
+		<item>KZ,REGDOMAIN_WORLD</item>
+		<item>LA,REGDOMAIN_WORLD</item>
+		<item>LB,REGDOMAIN_WORLD</item>
+		<item>LC,REGDOMAIN_WORLD</item>
+		<item>LI,REGDOMAIN_ETSI</item>
+		<item>LK,REGDOMAIN_WORLD</item>
+		<item>LR,REGDOMAIN_WORLD</item>
+		<item>LS,REGDOMAIN_WORLD</item>
+		<item>LT,REGDOMAIN_HI_5GHZ</item>
+		<item>LU,REGDOMAIN_ETSI</item>
+		<item>LV,REGDOMAIN_HI_5GHZ</item>
+		<item>LY,REGDOMAIN_WORLD</item>
+		<item>MA,REGDOMAIN_WORLD</item>
+		<item>MC,REGDOMAIN_ETSI</item>
+		<item>MD,REGDOMAIN_WORLD</item>
+		<item>ME,REGDOMAIN_WORLD</item>
+		<item>MG,REGDOMAIN_WORLD</item>
+		<item>MH,REGDOMAIN_WORLD</item>
+		<item>MK,REGDOMAIN_WORLD</item>
+		<item>ML,REGDOMAIN_WORLD</item>
+		<item>MM,REGDOMAIN_WORLD</item>
+		<item>MN,REGDOMAIN_HI_5GHZ</item>
+		<item>MO,REGDOMAIN_WORLD</item>
+		<item>MP,REGDOMAIN_WORLD</item>
+		<item>MQ,REGDOMAIN_WORLD</item>
+		<item>MR,REGDOMAIN_WORLD</item>
+		<item>MS,REGDOMAIN_WORLD</item>
+		<item>MT,REGDOMAIN_WORLD</item>
+		<item>MU,REGDOMAIN_WORLD</item>
+		<item>MV,REGDOMAIN_WORLD</item>
+		<item>MW,REGDOMAIN_WORLD</item>
+		<item>MX,REGDOMAIN_WORLD</item>
+		<item>MY,REGDOMAIN_HI_5GHZ</item>
+		<item>MZ,REGDOMAIN_WORLD</item>
+		<item>NA,REGDOMAIN_WORLD</item>
+		<item>NC,REGDOMAIN_WORLD</item>
+		<item>NE,REGDOMAIN_WORLD</item>
+		<item>NF,REGDOMAIN_WORLD</item>
+		<item>NG,REGDOMAIN_WORLD</item>
+		<item>NI,REGDOMAIN_WORLD</item>
+		<item>NL,REGDOMAIN_ETSI</item>
+		<item>NO,REGDOMAIN_WORLD</item>
+		<item>NP,REGDOMAIN_WORLD</item>
+		<item>NR,REGDOMAIN_WORLD</item>
+		<item>NU,REGDOMAIN_WORLD</item>
+		<item>NZ,REGDOMAIN_ETSI</item>
+		<item>OM,REGDOMAIN_WORLD</item>
+		<item>PA,REGDOMAIN_WORLD</item>
+		<item>PE,REGDOMAIN_WORLD</item>
+		<item>PF,REGDOMAIN_WORLD</item>
+		<item>PG,REGDOMAIN_WORLD</item>
+		<item>PH,REGDOMAIN_WORLD</item>
+		<item>PK,REGDOMAIN_WORLD</item>
+		<item>PL,REGDOMAIN_WORLD</item>
+		<item>PM,REGDOMAIN_WORLD</item>
+		<item>PN,REGDOMAIN_WORLD</item>
+		<item>PR,REGDOMAIN_FCC</item>
+		<item>PS,REGDOMAIN_WORLD</item>
+		<item>PT,REGDOMAIN_ETSI</item>
+		<item>PW,REGDOMAIN_WORLD</item>
+		<item>PY,REGDOMAIN_WORLD</item>
+		<item>QA,REGDOMAIN_WORLD</item>
+		<item>RE,REGDOMAIN_WORLD</item>
+		<item>RO,REGDOMAIN_HI_5GHZ</item>
+		<item>RS,REGDOMAIN_HI_5GHZ</item>
+		<item>RU,REGDOMAIN_WORLD</item>
+		<item>RW,REGDOMAIN_WORLD</item>
+		<item>SA,REGDOMAIN_WORLD</item>
+		<item>SB,REGDOMAIN_WORLD</item>
+		<item>SC,REGDOMAIN_ETSI</item>
+		<item>SD,REGDOMAIN_WORLD</item>
+		<item>SE,REGDOMAIN_ETSI</item>
+		<item>SG,REGDOMAIN_APAC</item>
+		<item>SH,REGDOMAIN_WORLD</item>
+		<item>SI,REGDOMAIN_HI_5GHZ</item>
+		<item>SJ,REGDOMAIN_WORLD</item>
+		<item>SK,REGDOMAIN_HI_5GHZ</item>
+		<item>SL,REGDOMAIN_WORLD</item>
+		<item>SM,REGDOMAIN_WORLD</item>
+		<item>SN,REGDOMAIN_WORLD</item>
+		<item>SO,REGDOMAIN_WORLD</item>
+		<item>SR,REGDOMAIN_WORLD</item>
+		<item>ST,REGDOMAIN_WORLD</item>
+		<item>SV,REGDOMAIN_WORLD</item>
+		<item>SY,REGDOMAIN_WORLD</item>
+		<item>SZ,REGDOMAIN_WORLD</item>
+		<item>TC,REGDOMAIN_WORLD</item>
+		<item>TD,REGDOMAIN_WORLD</item>
+		<item>TF,REGDOMAIN_WORLD</item>
+		<item>TG,REGDOMAIN_WORLD</item>
+		<item>TH,REGDOMAIN_WORLD</item>
+		<item>TJ,REGDOMAIN_WORLD</item>
+		<item>TK,REGDOMAIN_WORLD</item>
+		<item>TL,REGDOMAIN_WORLD</item>
+		<item>TM,REGDOMAIN_WORLD</item>
+		<item>TN,REGDOMAIN_WORLD</item>
+		<item>TO,REGDOMAIN_WORLD</item>
+		<item>TR,REGDOMAIN_WORLD</item>
+		<item>TT,REGDOMAIN_WORLD</item>
+		<item>TV,REGDOMAIN_WORLD</item>
+		<item>TW,REGDOMAIN_HI_5GHZ</item>
+		<item>TZ,REGDOMAIN_WORLD</item>
+		<item>UA,REGDOMAIN_HI_5HZ</item>
+		<item>UG,REGDOMAIN_WORLD</item>
+		<item>UM,REGDOMAIN_FCC</item>
+		<item>UY,REGDOMAIN_WORLD</item>
+		<item>UZ,REGDOMAIN_HI_5HZ</item>
+		<item>VA,REGDOMAIN_ETSI</item>
+		<item>VC,REGDOMAIN_WORLD</item>
+		<item>VE,REGDOMAIN_HI_5HZ</item>
+		<item>VG,REGDOMAIN_ETSI</item>
+		<item>VI,REGDOMAIN_FCC</item>
+		<item>VN,REGDOMAIN_WORLD</item>
+		<item>VU,REGDOMAIN_WORLD</item>
+		<item>WF,REGDOMAIN_WORLD</item>
+		<item>WS,REGDOMAIN_WORLD</item>
+		<item>YE,REGDOMAIN_WORLD</item>
+		<item>YT,REGDOMAIN_WORLD</item>
+		<item>ZA,REGDOMAIN_WORLD</item>
+		<item>ZM,REGDOMAIN_WORLD</item>
+		<item>ZW,REGDOMAIN_WORLD</item>
+		<item>K1,REGDOMAIN_KOREA</item>
+		<item>K2,REGDOMAIN_KOREA</item>
+		<item>K3,REGDOMAIN_KOREA</item>
+		<item>K4,REGDOMAIN_KOREA</item>
+	</string-array>
+	<!-- Advanced Wireless Settings - Energy Threshold -->
+	<string-array name = "energyDetectThreshold">
+		<item>Off</item>
+		<item>-60 dBm</item>
+		<item>-63 dBm</item>
+		<item>-66 dBm</item>
+		<item>-69 dBm</item>
+		<item>-72 dBm</item>
+		<item>-75 dBm</item>
+		<item>-78 dBm</item>
+		<item>-81 dBm</item>
+		<item>-84 dBm</item>
+		<item>-87 dBm</item>
+	</string-array>
+	<string-array name = "energyDetectThresholdValues">
+		<item>128</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+	
+	<!-- Network Settings - MAC Filter Mode-->
+	<string-array name = "nwConfigArray">
+		<item>Accept unless in deny list</item>
+		<item>Deny unless in accept list</item>
+	</string-array>
+	<string-array name = "nwConfigValues">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	<!-- Basic Wireless Settings List Preference Keys -->
+	<string-array name = "bws_keys">
+		<item>hw_mode</item>
+		<item>ssid</item>
+		<item>channel</item>
+		<item>auth_algs</item>
+	</string-array>	
+	<string-array name = "station_lst_opt">
+		<item>Disassociate</item>
+		<item>Add to Allow List</item>
+		<item>Add to Deny List</item>
+		<item>Cancel</item>
+	</string-array>	
+	<!-- Advanced Wireless Settings Keys -->	
+	<string-array name = "str_arr_aws_keys">
+		<item>tx_power</item>
+		<item>data_rate</item>
+		<item>fragm_threshold</item>
+		<item>rts_threshold</item>
+		<item>beacon_int</item>
+		<item>dtim_period</item>
+		<item>country_code</item>
+		<item>auto_shut_off_time</item>
+		<item>energy_detect_threshold</item>
+		<item>wmm_enabled</item>
+	</string-array>	
+	<string-array name = "str_arr_aws_checkbx_keys">
+		<item>protection_flag</item>		
+		<item>intra_bss_forward</item>
+		<item>regulatory_domain</item>
+	</string-array>
+	<!-- Wireless Security Settings WEP Keys -->
+	<string-array name = "str_arr_wep_keys">		
+		<item>wep_key0</item>
+		<item>wep_key1</item>
+		<item>wep_key2</item>
+		<item>wep_key3</item>
+	</string-array>	
+	<string-array name = "str_arr_wpapsk_keys">		
+		<item>wpa_pairwise</item>		
+		<item>rsn_pairwise</item>
+		<item>wpa_passphrase</item>
+		<item>wpa_group_rekey</item>
+	</string-array>			
+	<!-- Commands Key List	-->
+	<string-array name = "defaultProfileKeys">
+		<item>wps_state</item>
+		<item>hw_mode</item>
+		<item>ssid</item>
+		<item>channel</item>
+		<item>auth_algs</item>
+		<item>ignore_broadcast_ssid</item>
+		<item>security_mode</item>
+		<item>wep_key0</item>
+		<item>wep_key1</item>
+		<item>wep_key2</item>
+		<item>wep_key3</item>
+		<item>wep_default_key</item>
+		<item>wpa_pairwise</item>
+		<item>wpa_passphrase</item>
+		<item>rsn_pairwise</item>
+		<item>wpa_group_rekey</item>
+		<item>tx_power</item>
+		<item>data_rate</item>
+		<item>fragm_threshold</item>
+		<item>rts_threshold</item>
+		<item>beacon_int</item>
+		<item>dtim_period</item>
+		<item>protection_flag</item>
+		<item>wmm_enabled</item>
+		<item>intra_bss_forward</item>
+		<item>regulatory_domain</item>
+		<item>country_code</item>
+		<item>macaddr_acl</item>
+		<item>allow_list</item>
+		<item>deny_list</item>
+		<item>auto_shut_off_time</item>
+		<item>energy_detect_threshold</item>		
+	</string-array>
+
+	<string-array name = "mac_allow_keylst">
+		<item>allow1</item>
+		<item>allow2</item>
+		<item>allow3</item>
+		<item>allow4</item>
+		<item>allow5</item>
+		<item>allow6</item>
+		<item>allow7</item>
+		<item>allow8</item>
+		<item>allow9</item>
+		<item>allow10</item>
+		<item>allow11</item>
+		<item>allow12</item>
+		<item>allow13</item>
+		<item>allow14</item>
+		<item>allow15</item>
+	</string-array>
+	<string-array name = "mac_deny_keylst">
+		<item>deny1</item>
+		<item>deny2</item>
+		<item>deny3</item>
+		<item>deny4</item>
+		<item>deny5</item>
+		<item>deny6</item>
+		<item>deny7</item>
+		<item>deny8</item>
+		<item>deny9</item>
+		<item>deny10</item>
+		<item>deny11</item>
+		<item>deny12</item>
+		<item>deny13</item>
+		<item>deny14</item>
+		<item>deny15</item>
+	</string-array>
+</resources>

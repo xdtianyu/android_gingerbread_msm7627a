@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDaemonLib", "TestDaemonLib.vcproj", "{ADE4CD2B-0AEF-4C64-BAD0-4D9FB5DAB753}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6} = {E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DaemonLib", "..\DaemonLib\DaemonLibrary.vcproj", "{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE4CD2B-0AEF-4C64-BAD0-4D9FB5DAB753}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADE4CD2B-0AEF-4C64-BAD0-4D9FB5DAB753}.Debug|Win32.Build.0 = Debug|Win32
+		{ADE4CD2B-0AEF-4C64-BAD0-4D9FB5DAB753}.Release|Win32.ActiveCfg = Release|Win32
+		{ADE4CD2B-0AEF-4C64-BAD0-4D9FB5DAB753}.Release|Win32.Build.0 = Release|Win32
+		{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}.Debug|Win32.Build.0 = Debug|Win32
+		{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}.Release|Win32.ActiveCfg = Release|Win32
+		{E26B3587-A924-4EEC-A60E-D45B4E7B2DC6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory 
+		android:title="@string/act_name_ns_mac_filter"
+		android:key="mac_filter_catag" >
+		<ListPreference 
+			android:title="@string/str_mac_pref_list_macmode"
+			android:key="macaddr_acl" 
+			android:enabled="true"		 
+			android:entries="@array/nwConfigArray"
+			android:entryValues="@array/nwConfigValues"
+			android:defaultValue="0"/>
+	</PreferenceCategory>
+	<PreferenceCategory 
+		android:title="@string/act_name_ns_mac_filter_list"
+		android:key="mac_filter_catag_list" />
+</PreferenceScreen>

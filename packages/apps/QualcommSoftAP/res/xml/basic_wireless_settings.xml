@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/act_name_ws_bws">
+		<CheckBoxPreference 	
+			android:summaryOn="Enabled" 
+			android:summaryOff="Disabled" 		
+			android:key="wpsstate"
+			android:title="@string/str_bws_pref_check_wps"/>		
+		<ListPreference 
+			android:entries="@array/wpsEnrollArray" 
+			android:entryValues="@array/wpsEnrollValues" 
+			android:key="config_methods"		
+			android:title="@string/str_bws_pref_list_enroll"		
+			android:dependency="wpsstate"/>
+		<ListPreference 
+			android:title="@string/str_bws_pref_list_nwmode"
+			android:key="hw_mode"		
+			android:entries="@array/networkArray" 
+			android:entryValues="@array/networkValues"
+			android:defaultValue="BG"/>				
+		<EditTextPreference 
+			android:title="@string/str_bws_pref_edit_nwssid" 
+			android:key="ssid"			
+			android:dialogMessage="@string/str_bws_pref_edit_nwssid_dialog"
+			android:singleLine="true"
+			android:maxLength="32"
+			android:hint="Enter SSID/Network Name"
+			android:defaultValue="SoftAP"/>
+		<ListPreference 		
+			android:key="channel"		 
+			android:title="@string/str_bws_pref_list_chfreq"/>
+		<ListPreference 
+			android:title="@string/str_bws_pref_list_authmode"
+			android:key="auth_algs"			
+			android:entries="@array/authArray" 
+			android:entryValues="@array/authValues"
+			android:defaultValue="1"/>		
+		<CheckBoxPreference 
+			android:summaryOn="Enabled" 
+			android:summaryOff="Disabled" 
+			android:key="broadcast_ssid"
+			android:title="@string/str_bws_pref_check_brodssid"
+			android:defaultValue="true"/>		
+	</PreferenceCategory>		
+</PreferenceScreen>

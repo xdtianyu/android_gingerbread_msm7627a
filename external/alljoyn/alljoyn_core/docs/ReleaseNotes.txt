@@ -1,0 +1,79 @@
+AllJoyn Version 2.0.1 Release Notes
+-----------------------------------
+
+Platform Support
+----------------
+1) Linux Ubuntu 10.10 64-bit (x86-64)
+2) Android Froyo 2.2 (ARM7)
+3) Android Gingerbread 2.3.4 (ARM7)
+
+
+Features added in this release
+------------------------------
+None
+
+
+Issues Addressed in this Release
+--------------------------------
+1) ALLJOYN-480: Fixed memory corruption error within the Java binding
+   that affected operation with Gingerbread
+
+2) Bluetooth related issues:
+   - ALLJOYN-492 Multiple clients/services on a single piconet may cause
+     connection failures.
+
+3) ALLJOYN-456: Multipoint sessions exited with LeaveSession may not generate
+   NameOwnerChanged/SessionLost indications for other nodes on the bus.
+
+4) ALLJOYN-508: The number of active TCP connections for alljoyn-daemon was
+   incorrectly limited to the config file value for the max number of
+   simultaneous connect attempts.
+
+5) ALLJOYN-509: Message flag ALLJOYN_FLAG_ENCRYPTED not honored for
+   signals or asynch method calls.
+
+6) ALLJOYN-512: BusAttachment::FindAdvertisedName does not find all names
+   matched by name prefix.
+
+7) ALLJOYN-513: SessionLost indication not sent when there multiple
+   sessions exist between the involved devices.
+
+
+Known issues and limitations with this release
+----------------------------------------------
+
+1) Bluetooth related issues:
+   - There is erratic behavior with Bluetooth when built in release mode.
+   - Scatternets have not been significantly tested.
+   - Bluetooth does not support RAW session types at this time.
+   - Sending large messages (megabytes) between devices over Bluetooth may
+     impact Bluetooth topology manager operations.
+
+2) ALLJOYN-394: ProxyBusObject::GetChild() does not work from the root "/"
+   object.
+
+3) ALLJOYN-519: A ProxyBusObject may trigger a segmentation fault if it is
+   deleted while threads are blocked inside ProxyBusObjec::MethodCall().
+
+4) ALLJOYN-494: AllJoyn java binding calls that return QStatus can return
+   null instead of a valid QStatus in certain error situations.
+
+5) Java Chat sample program is not optimized for AllJoyn 2.x.
+   Please see source file AllJoynChat.java for details.
+
+
+Compatibility
+-------------
+Applications written for AllJoyn 1.X will need to be modified and rebuilt
+for use with AllJoyn 2.0 and later.
+
+The AllJoyn daemon-to-daemon protocol has changed. Alljoyn version 2.X daemons
+are not backwards compatible with AllJoyn 1.X daemons.
+
+
+Change history
+--------------
+2.0.0 - Added sessions and topology management.
+        API's and daemon protocols changed.
+1.8.0 - Initial Open Source Release
+

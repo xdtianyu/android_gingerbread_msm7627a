@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory 
+			android:title="WEP Security Settings" 
+			android:key="wss_wep_catag" >		
+		<EditTextPreference		 
+			android:singleLine="true"
+			android:title="@string/str_wep_pref_edit_key1" 
+			android:key="wep_key0"			
+			android:dialogMessage="@string/wep_summary"			
+			android:maxLength="32"/>
+		<EditTextPreference		 
+			android:title="@string/str_wep_pref_edit_key2" 
+			android:key="wep_key1" 
+			android:singleLine="true"		
+			android:dialogMessage="@string/wep_summary"
+			android:maxLength="32"/>
+		<EditTextPreference			
+			android:singleLine="true"			 
+			android:title="@string/str_wep_pref_edit_key3" 
+			android:key="wep_key2"			
+			android:dialogMessage="@string/wep_summary"
+			android:maxLength="32"/>
+		<EditTextPreference			
+			android:singleLine="true"			 
+			android:title="@string/str_wep_pref_edit_key4" 
+			android:key="wep_key3"			
+			android:dialogMessage="@string/wep_summary"
+			android:maxLength="32"/>
+		<ListPreference 
+			android:title="Transmit Key"
+			android:key="wep_default_key" 
+			android:defaultValue="1"
+			android:entries="@array/transmitKey" 
+			android:entryValues="@array/transmitKeyValues" />
+	</PreferenceCategory>
+</PreferenceScreen>

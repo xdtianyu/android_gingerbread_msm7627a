@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Main Menu Activity Titles -->
+	<string name="app_name">SoftAP</string>
+	<string name="act_name_ws">Wireless Settings</string>
+	<string name="act_name_ns">Network Settings</string>
+	<string name="notification">Wi-Fi AP Enabled</string>
+	<string name="act_name_ws_bws">Basic Wireless Settings</string>
+	<string name="wpa_screen_alert_wep">WPS not allowed if security mode is WEP</string>
+	<string name="str_act_about_title">About</string>
+
+	<!--  Titles of Sub Activity Network Settings -->	
+	<string name="act_name_ns_mac_filter">MAC Filter Settings</string>	
+	<string name="act_name_ns_mac_filter_list">MAC Address List</string>
+
+	<!-- Other String Resources -->
+	<string name="alert_dialog_rename_ok">OK</string>
+	<string name="alert_dialog_rename_cancel">Cancel</string>	
+	<string name="ws_key">wsKey</string>
+	<string name="ns_key">nsKey</string>
+	<string name="mgmt_key">mgKey</string>
+	<string name="prof_key">profKey</string>
+	<string name="wifi_status_key">status</string>
+	<string name="station_status_key">statusKey</string>			
+	<string name="alert_save">Save changes?</string>
+	<string name="tag">QWiFiSOFTAP_GUI_</string>
+	<string name="btn_mac_add">Add</string>	
+	<string name="save_btn">Save Settings</string>
+	<string name="reset_btn">Reset Settings</string>
+
+	<!-- Strings for Wireless Security Settings WEP file -->
+	<string name="wep_summary">Must be 5/13/16 characters or 10/26/32 hex digits</string>
+	<string name="wep_screen_alert_wpa">WEP security mode is not allowed if WPS is enabled</string>
+	
+	<!-- Alert Dialog Messages -->
+	<string name="wep_screen_alert_N">WEP Security Mode is not allowed with N Operating Mode.</string>
+	<string name="wep_screen_alert_BGN">WEP Security Mode is not allowed with BGN Operating Mode.</string>
+	<string name="bws_screen_alert_N_TKIPorMIXED">N Operating Mode is not allowed with TKIP or MIXED Encryption.</string>
+	<string name="bws_screen_alert_BGN_TKIPorMIXED">BGN Operating Mode is not allowed with TKIP or MIXED Encryption.</string>
+	<string name="bws_screen_alert_N_WEP">N Operating Mode is not allowed with WEP Security Mode.</string>
+	<string name="bws_screen_alert_BGN_WEP">BGN Operating Mode is not allowed with WEP Security Mode.</string>
+	<string name="wpa_screen_alert_N_TKIPorMIXED">TKIP or MIXED Encryption is not allowed with N Operating Mode.</string>
+	<string name="wpa_screen_alert_BGN_TKIPorMIXED">TKIP or MIXED Encryption is not allowed with BGN Operating Mode.</string>
+	<string name="mms_screen_alert_TKIPorMIXED">TKIP or MIXED Encryption is not allowed with N or BGN Operating Mode.</string>
+	<string name="common_append_alert_wep">Change either Security Mode or Operating Mode.</string>
+	<string name="common_append_alert_wpa">Change either Encryption Algorithm or Operating Mode.</string>
+
+	<!-- Other String Constants -->
+	<string name="str_bws_enroll">Select WPS Enroll Method</string>
+	<string name="str_dialog_warning">Warning</string>
+	<string name="str_prefcat_station">Associated Stations</string>
+	<string name="str_apstatistics">Access Point Statistics</string>
+	<string name="str_prefcat_aws">Advanced Wireless Settings</string>
+	<string name="str_about_dlg_title">SoftAP</string>
+
+	<!-- ListPreference Titles -->
+	<string name="str_bws_pref_list_enroll">WPS Enroll Method</string>
+	<string name="str_bws_pref_list_nwmode">Network Mode</string>
+	<string name="str_bws_pref_list_chfreq">Channel(Frequency)</string>
+	<string name="str_bws_pref_list_authmode">Authentication Mode</string>
+	<string name="str_aws_pref_list_datart">Data Rate</string>
+	<string name="str_aws_pref_list_wmm">WMM</string>
+	<string name="str_aws_pref_list_ctry">Country Code</string>
+	<string name="str_aws_pref_list_apshuttimer">AP Shut Off Time</string>
+	<string name="str_wpapsk_pref_list_wpapair">WPA Encryption Algorithm</string>
+	<string name="str_wpapsk_pref_list_rsnpair">WPA2 Encryption Algorithm</string>
+	<string name="str_wss_pref_list_sm">Security Mode</string>
+	<string name="str_main_pref_list_ws">Wireless Settings</string>
+	<string name="str_main_pref_list_ns">Network Settings</string>
+	<string name="str_main_pref_list_st">Status</string>
+	<string name="str_mac_pref_list_macmode">MAC Filter Mode</string>
+
+	<!-- EditTextPrefeence Titles -->
+	<string name="str_bws_pref_edit_nwssid">Network Name / SSID</string>
+	<string name="str_bws_pref_edit_nwssid_dialog">Must be 1 to 32 chars</string>
+	<string name="str_aws_pref_edit_tpwr">Transmit Power</string>
+	<string name="str_aws_pref_edit_fragtr">Fragmentation Threshold</string>
+	<string name="str_aws_pref_edit_rtstr">RTS Threshold</string>
+	<string name="str_aws_pref_edit_becon">Beacon Interval</string>
+	<string name="str_aws_pref_edit_dtim">DTIM Period</string>
+	<string name="str_aws_pref_edit_energy">Energy Detect Mode</string>
+	<string name="str_aws_pref_edit_dlg_tpwr">Must be 2 to 30</string>
+	<string name="str_aws_pref_edit_dlg_fragtr">Must be 256 to 2346</string>
+	<string name="str_aws_pref_edit_dlg_rtstr">Must be 0 to 2347</string>
+	<string name="str_aws_pref_edit_dlg_becon">Must be 1 to 65535</string>
+	<string name="str_aws_pref_edit_dlg_dtim">Must be 1 to 255</string>
+	<string name="str_aws_pref_edit_dlg_energy">Must be 0 to 128</string>
+	<string name="str_wep_pref_edit_key1">Key 1</string>
+	<string name="str_wep_pref_edit_key2">Key 2</string>
+	<string name="str_wep_pref_edit_key3">Key 3</string>
+	<string name="str_wep_pref_edit_key4">Key 4</string>
+	<string name="str_wpapsk_pref_edit_pass">Pass Phrase</string>
+	<string name="str_wep_pref_edit_grp">Group Key Renewal Interval</string>
+	<string name="str_wep_pref_edit_pass_dlg">Must be 8 to 63 chars</string>
+	<string name="str_wep_pref_edit_grp_dlg">Must be >= 600</string>
+
+	<!-- ChekBoxPreference Titles -->
+	<string name="str_bws_pref_check_wps">WPS</string>
+	<string name="str_bws_pref_check_brodssid">SSID Broadcast</string>
+	<string name="str_bws_pref_check_pf">Protection Flag</string>
+	<string name="str_bws_pref_check_wmm">WMM</string>
+	<string name="str_bws_pref_check_intrbss">Intra BSS Forwarding</string>
+	<string name="str_bws_pref_check_d">802.11d</string>
+	<string name="str_main_pref_check_wifiap">Wi-Fi AP</string>
+</resources>

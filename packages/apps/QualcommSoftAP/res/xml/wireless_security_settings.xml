@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory 
+		android:title="Wireless Security Settings" 
+		android:key="wss_catag">	
+	<ListPreference
+    	android:title="@string/str_wss_pref_list_sm"                       
+        android:key="security_mode"                               
+        android:entries="@array/securityMode"
+        android:entryValues="@array/securityModeValues"
+        android:defaultValue="Open"/>	
+	</PreferenceCategory>
+</PreferenceScreen>

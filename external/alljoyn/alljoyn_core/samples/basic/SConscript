@@ -1,0 +1,35 @@
+# Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
+# 
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+# 
+#        http://www.apache.org/licenses/LICENSE-2.0
+# 
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+# 
+
+Import('env')
+clientDistDir = '$DISTDIR/samples/basic'
+
+# Sample Programs
+progs = [
+    env.Program('basic_service',  ['basic_service.cc']),
+    env.Program('basic_client',   ['basic_client.cc']),
+    env.Program('signal_service', ['signal_service.cc']),
+    env.Program('nameChange_client', ['nameChange_client.cc']),
+    env.Program('signalConsumer_client', ['signalConsumer_client.cc'])
+    ]
+
+if 'linux' == env['OS']:
+    env.Install('$DISTDIR/bin/samples', progs )
+    env.Install(clientDistDir, env.Glob('*.cc'))
+    env.Install(clientDistDir, env.Glob('Make*'))
+    env.Install(clientDistDir, env.Glob('README*'))
+elif env['OS'] == 'windows':
+    env.Install('$DISTDIR/bin/samples', progs )
+    env.Install(clientDistDir, env.Glob('*.cc'))

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bpp_main">Bluetooth Printing</string>
+    <string name="app_name_bpp">Bluetooth BPP</string>
+    <string name="bpp_printing_button_text">Printing</string>
+    <string name="bpp_setting_text">Setting</string>
+    <string name="bpp_cancel">Cancel</string>
+    <string name="bpp_session_key_dialog_title">Type session key for %1$s</string>
+    <string name="bpp_session_key_dialog_header">Bluetooth session key required</string>
+    <string name="bpp_authentication_timeout_message">There was time out to input session key with %1$s</string>
+
+    <!-- Preference List Menu -->
+    <string-array name="numberup">
+        <item>One page per side</item>
+        <item>Two page per side</item>
+        <item>Four page per side</item>
+    </string-array>
+    <string-array name="numberup_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="orientation">
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Reverse Landscape</item>
+        <item>Reverse Portrait</item>
+    </string-array>
+    <string-array name="orientation_val">
+        <item>portrait</item>
+        <item>landscape</item>
+        <item>reverse-landscape</item>
+        <item>reverse-portrait</item>
+    </string-array>
+
+    <string-array name="sides">
+        <item>One Sided</item>
+        <item>Two Sided Long Edge</item>
+        <item>Two Sided Short Edge</item>
+    </string-array>
+    <string-array name="sides_val">
+        <item>one-sided</item>
+        <item>two-sided-long-edge</item>
+        <item>two-sided-short-edge</item>
+    </string-array>
+
+</resources>

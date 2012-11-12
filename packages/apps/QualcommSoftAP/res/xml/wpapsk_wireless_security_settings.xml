@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:key="wss_wpapsk_catag" >	
+		<ListPreference		
+			android:title="@string/str_wpapsk_pref_list_wpapair"
+			android:key="wpa_pairwise" 
+			android:entries="@array/wpapskAlgorithm" 
+			android:entryValues="@array/wpapskAlgorithmValues" />			
+		<ListPreference 
+			android:title="@string/str_wpapsk_pref_list_rsnpair"
+			android:key="rsn_pairwise" 
+			android:entries="@array/wpapskAlgorithm" 
+			android:entryValues="@array/wpapskAlgorithmValues" />
+		<EditTextPreference 
+			android:title="@string/str_wpapsk_pref_edit_pass" 
+			android:key="wpa_passphrase" 
+			android:singleLine="true"
+			android:maxLength="63"		
+			android:dialogMessage="@string/str_wep_pref_edit_pass_dlg"/>
+		<EditTextPreference 
+			android:title="@string/str_wep_pref_edit_grp" 
+			android:numeric="integer"
+			android:key="wpa_group_rekey"
+			android:dialogMessage="@string/str_wep_pref_edit_grp_dlg" 
+			android:singleLine="true"/>
+	</PreferenceCategory>	
+</PreferenceScreen>

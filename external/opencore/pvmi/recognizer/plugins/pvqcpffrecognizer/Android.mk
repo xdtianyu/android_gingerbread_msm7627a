@@ -1,0 +1,30 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+	src/pvqcpffrec_factory.cpp \
+ 	src/pvqcpffrec_plugin.cpp
+
+
+LOCAL_MODULE := libpvqcpffrecognizer
+
+LOCAL_CFLAGS :=  $(PV_CFLAGS)
+
+
+
+LOCAL_STATIC_LIBRARIES := 
+
+LOCAL_SHARED_LIBRARIES := 
+
+LOCAL_C_INCLUDES := \
+	$(PV_TOP)/pvmi/recognizer/plugins/pvqcpffrecognizer/src \
+ 	$(PV_TOP)/pvmi/recognizer/plugins/pvqcpffrecognizer/include \
+ 	/pvmi/recognizer/include \
+ 	$(PV_INCLUDES)
+
+LOCAL_COPY_HEADERS_TO := $(PV_COPY_HEADERS_TO)
+
+LOCAL_COPY_HEADERS := \
+ 	include/pvqcpffrec_factory.h
+
+include $(BUILD_STATIC_LIBRARY)

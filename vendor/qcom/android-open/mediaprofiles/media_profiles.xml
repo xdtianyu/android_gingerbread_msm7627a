@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<MediaProfileInfo>
+    <CamcorderProfiles cameraId="0">
+        <EncoderProfile quality="high" fileFormat="3gp" duration="60">
+            <Video codec = "h263"  bitRate="720000" width="352" height="288"
+                frameRate = "20"/>
+            <Audio codec="amrnb" bitRate="12200" sampleRate="8000"
+                channels ="1" />
+        </EncoderProfile>
+        <EncoderProfile quality="low" fileFormat="3gp" duration="30">
+            <Video codec = "h263"  bitRate="192000" width="176" height="144"
+                frameRate = "20"/>
+            <Audio codec="amrnb" bitRate="12200" sampleRate="8000"
+                channels ="1" />
+        </EncoderProfile>
+        <ImageEncoding quality="70"/>
+        <ImageEncoding quality="80"/>
+        <ImageEncoding quality="90"/>
+    </CamcorderProfiles>
+    <CamcorderProfiles cameraId="1">
+        <EncoderProfile quality="high" fileFormat="3gp" duration="60">
+            <Video codec = "h263"  bitRate="720000" width="352" height="288"
+                frameRate = "20"/>
+            <Audio codec="amrnb" bitRate="12200" sampleRate="8000"
+                channels ="1" />
+        </EncoderProfile>
+        <EncoderProfile quality="low" fileFormat="3gp" duration="30">
+            <Video codec = "h263"  bitRate="192000" width="176" height="144"
+                frameRate = "20"/>
+            <Audio codec="amrnb" bitRate="12200" sampleRate="8000"
+                channels ="1" />
+        </EncoderProfile>
+        <ImageEncoding quality="70"/>
+        <ImageEncoding quality="80"/>
+        <ImageEncoding quality="90"/>
+    </CamcorderProfiles>
+    <VideoEncoderCap name="h263" enabled="true" minBitRate="192000"
+        maxBitRate="6000000" minFrameWidth="176" maxFrameWidth="800"
+        minFrameHeight="144" maxFrameHeight="480"
+        minFrameRate="1" maxFrameRate="30"/>
+    <VideoEncoderCap name="m4v" enabled="true" minBitRate="192000"
+        maxBitRate="20000000" minFrameWidth="176" maxFrameWidth="1920"
+        minFrameHeight="144" maxFrameHeight="1088"
+        minFrameRate="1" maxFrameRate="30"/>
+    <VideoEncoderCap name="h264" enabled="true" minBitRate="192000"
+        maxBitRate="20000000" minFrameWidth="176" maxFrameWidth="1920"
+        minFrameHeight="144" maxFrameHeight="1088"
+        minFrameRate="1" maxFrameRate="30"/>
+    <AudioEncoderCap name="amrnb" enabled="true" minBitRate="5525"
+        maxBitRate="12200" minSampleRate="8000" maxSampleRate="8000"
+        minChannels="1" maxChannels="1"/>
+    <AudioEncoderCap name="aac" enabled="true" minBitRate="5525"
+        maxBitRate="128000" minSampleRate="8000" maxSampleRate="48000"
+        minChannels="1" maxChannels="1"/>
+    <VideoDecoderCap name="wmv" enabled="true"/>
+    <AudioDecoderCap name="wma" enabled="true"/>
+    <EncoderOutputFileFormat name="3gp"/>
+    <EncoderOutputFileFormat name="mp4"/>
+</MediaProfileInfo>
+
